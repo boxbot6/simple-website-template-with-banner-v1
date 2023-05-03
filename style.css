@@ -1,0 +1,324 @@
+﻿html,
+body {
+	height: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	/* margin-left: 1.2em; */
+	/* margin-right: 1.2em; */
+	margin-top: 0;	
+	margin-bottom: 0;
+}
+
+
+/*===============box used here to expand empty pages to fill screen to the bottom==============*/
+
+.box {
+	display: flex;
+        flex-flow: column;
+        height: 100%;
+}
+
+.box .row.header {
+        flex: 0 1 auto;
+}
+
+.box .row.content {
+        flex: 1 1 auto;
+}
+
+.box .row.footer {
+        flex: 0 1 auto;
+}
+
+
+
+.logo-button {
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: transparent; /* lighter blue #0a95ff; */
+	border: none;
+	/* border-radius: 8px; */
+	color: lightgray;
+	padding: 0px 0px; /* padding: 15px 0px; */
+	/* vertical-align:middle; */
+	text-align: top;
+	text-decoration: none;
+	/* display: inline-block; */
+	font-size: 18px;
+	font-family:tahoma;
+	transition-duration: 0.4s;
+ 	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */ 
+
+	float: left;
+	/* margin: 0px 0px 50px 15px;*/
+}
+
+
+
+
+.header-tabs {
+	margin-top: 0.6cm;
+	margin-bottom: 0cm;
+	text-align: left;
+	height: 27px;
+}
+
+.header-banner {
+	display: table;
+	overflow: hidden;
+	margin-top: 0cm;
+	margin-bottom: 0cm;
+	/* text-align: left; */
+	/* background-color: transparent; */
+	height: 240px;
+	width: 100%;
+}
+
+.header-banner-short {
+	display: table;
+	overflow: hidden;
+	margin-top: 0cm;
+	margin-bottom: 0cm;
+	/* text-align: left; */
+	/* background-color: transparent; */
+	height: 180px;
+	width: 100%;
+}
+
+.tab-container {
+	color:white;
+	font-size: 0px; /* 18px */
+	margin-top: 8px; /* distance of tab box from top of page 8-9*/
+	font-weight: 300; /* normal (400), bold (700) */
+	font-family: Lato,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	width: auto;  
+	height: auto;
+  	vertical-align: center;
+ 	padding-right: 0px; /* distance of tab box from edge of page 8*/
+ 	text-align: right; /* puts the blocks in container on the right */
+}
+
+.tab-container li {
+	display: inline-block;
+	font-size: 18px;
+	padding: 0px 14px; /* padding inside tab box - top then side 14*/
+	cursor: pointer;
+}
+
+
+.tab-container li a:hover{
+ 	color: lightgray !important;
+}
+
+
+.tab-text {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	pointer-events: none;
+}
+
+
+
+
+
+
+.content-text {
+	color: black;
+	text-align: left;
+	margin-top: 0cm;
+	margin-bottom: 0cm;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: medium;
+	font-family: 'Times New Roman';
+}
+
+
+.content-text a:link {
+  color:  #0000FF;
+}
+.content-text a:visited,
+.content-text a:hover {
+  color: #800080;
+}
+.content-text a:active {
+  color: #FF0000;
+}
+
+
+.content-text-no-line-space {
+	margin-top: 0cm;
+	margin-bottom: 0cm;
+}
+
+
+content-image {
+	display:inline-block;
+	margin:0px;
+	margin-top:0px;
+	margin-bottom:15px;
+	text-align: center;
+	font-size: medium;
+	font-family: 'Times New Roman';
+}
+
+
+content-image-spaced {
+	display:inline-block;
+	margin:25px;
+	margin-top:25px;
+	margin-bottom:25px;
+	text-align: center;
+	font-size: medium;
+	font-family: 'Times New Roman';
+}
+
+
+.footer {
+	text-align: center;
+	color: #393939;
+	background-color: #6e5d4c; /* #c6a786;(tan) */
+	/*overflow: hidden;*/
+	padding-top: 6px;
+	padding-bottom: 1px;
+	margin-top:auto;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	line-height: 15px;
+}
+a:link {
+	color: white;
+}
+a:visited {
+	color: #393939; /* #669999; */
+}
+a:hover {
+	color: lightgray /* #0000FF; */
+}
+
+
+
+
+/*===============used to center anything==============*/
+
+.center {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+/*============float images to left or right ============*/
+
+.float-right {
+	float: right;
+	margin: 0px 0px 15px 15px;
+
+}
+
+.float-left {
+	float: left;
+	margin: 0px 0px 15px 15px;
+}
+
+
+
+/*============download button============*/
+
+.download-button {
+	background-color: #0b5394; /* lighter blue #0a95ff; */
+	border: none;
+	border-radius: 8px;
+	color: white;
+	padding: 15px 32px;
+	vertical-align:middle;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-family:tahoma;
+	transition-duration: 0.4s;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.download-button:hover {
+	background-color: #0074cc; /* dark blue */
+}
+
+.download-button:active {
+  background-color: #0057b1; /* darker blue */
+  transition-duration: 0.1s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.29), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  /*transform: translateY(2px);*/
+}
+
+
+
+
+
+/*============search button============*/
+
+
+.search-icon::before {
+	content: url(data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTUuNTU4IDUxNS41NTgiIHZpZXdCb3g9IjAgMCA1MTUuNTU4IDUxNS41NTgiIGZpbGw9IiNmZmYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTM3OC4zNDQgMzMyLjc4YzI1LjM3LTM0LjY0NSA0MC41NDUtNzcuMiA0MC41NDUtMTIzLjMzMyAwLTExNS40ODQtOTMuOTYxLTIwOS40NDUtMjA5LjQ0NS0yMDkuNDQ1cy0yMDkuNDQ0IDkzLjk2MS0yMDkuNDQ0IDIwOS40NDUgOTMuOTYxIDIwOS40NDUgMjA5LjQ0NSAyMDkuNDQ1YzQ2LjEzMyAwIDg4LjY5Mi0xNS4xNzcgMTIzLjMzNy00MC41NDdsMTM3LjIxMiAxMzcuMjEyIDQ1LjU2NC00NS41NjRjMC0uMDAxLTEzNy4yMTQtMTM3LjIxMy0xMzcuMjE0LTEzNy4yMTN6bS0xNjguODk5IDIxLjY2N2MtNzkuOTU4IDAtMTQ1LTY1LjA0Mi0xNDUtMTQ1czY1LjA0Mi0xNDUgMTQ1LTE0NSAxNDUgNjUuMDQyIDE0NSAxNDUtNjUuMDQzIDE0NS0xNDUgMTQ1eiIvPjwvc3ZnPg==);
+	width: 100%;
+	height: auto;
+}
+.search-box {
+	display: inline-flex;
+	padding: 0px;
+	border: 0px solid slategray; /* 2px; */
+	outline: none;
+	border-radius: 0px; /* 5px; */
+}
+.search-box:focus-within { 
+	border-color: dodgerblue;
+}
+.search-box input {
+	outline: none;
+	border: none;
+	width: 0;
+	background-color: white; /* transparent; */
+	color: black;
+	font-size: 16px;
+	padding: 0;
+	transition: width .4s cubic-bezier(0.18, 0.89, 0.32, 1.33);
+}
+.search-box input::placeholder {
+	color: lightgray;
+}
+.search-box:hover input,
+.search-box input:focus,
+.search-box input:valid {
+	margin-left: 0px; /* left of input text; */
+	padding-left: 10px;
+	width: 350px;
+}
+.search-box button { /* sizes the button and text-box */
+	outline: none;
+	border: none;
+	cursor: pointer;
+	background-color: transparent; /* slategray; */
+	padding: 12px; /* dictates size of search icon */
+	width: 40px;
+	height: 40px;
+	border-radius: 0px;
+	-webkit-appearance: none;
+}
+.search-box:focus-within button { /* can't combine selectors here because IE11 will whine */
+	background-color: red;
+}
+.search-box input:focus + button {
+	background-color: red;
+}
+.search-box input:valid + button {
+	background-color: limegreen;
+}
+
