@@ -18,11 +18,10 @@
 * Update \<title\> with your own info.
 * Put any images you want to use into the images folder and link to them in the index.html by copying how its done for the demo images.
 * Duplicate, add or remove elements that you want and reposition them on the page to suit your own purposes.
-* If you are new to coding the header tabs might look a little complicated at first because they contain options for displaying different images dependant on if you are hovering over them, clicking on them or currently viewing that particular page etc. (as well as having different demo sizes for the tabs) - just rename or duplicate the existing ones for ease until you are comfortable with how they work (all the icons for the tabs are stored in images).
 * Update any other elements\/text on the page as required including the footer and then check that all the links are working (see the links already included in the template for examples).
 * Edit the .css file to change the website presentation and styles.
 * Delete or \<\!\-\- comment out \-\-\> anything not needed.
-* Add any new pages you want by studying and copying the way the code is used for the existing pages (or just rename the existing pages and tabs to what you want).
+* Add any new pages you want by studying and duplicating the way the code is used for the existing pages (or just rename the existing pages and tabs to what you want).
 * Edit the index.html files for the other pages including any new pages you have created (every page should have an index.html that is located in their own subdirectory folder) - add your own content to each of these subsequent pages as you did for the home page.
 * When you are happy with everything host it on GitHub as below, upload it to a hosting service or move the main root directory folder to the location where you wish to host it from your own server.
 
@@ -102,7 +101,7 @@ You may have to wait a day or so for your GitHub repository to show up in google
 
 Visit the link below to view the website being created from this repository by github-pages.
 
-[https://boxbot6.github.io/simple-website-template-sky-style-v1/](https://boxbot6.github.io/simple-website-template-sky-style-v1/)
+[https://boxbot6.github.io/simple-website-template-sky-style-v1/](https://boxbot6.github.io/simple-website-template-with-banner-v1/)
 
 
 <br>
