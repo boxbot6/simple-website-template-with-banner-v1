@@ -2,9 +2,9 @@
 
 ![Simple website template with a banner](images/simple-website-template-with-banner-v1-sample.png)
 
-## Click on the link below to open and try out the template.
+#### [Click this link to visit and try out the actual template being created from this repository and hosted on github-pages (https://boxbot6.github.io/simple-website-template-with-banner-v1/).](https://boxbot6.github.io/simple-website-template-with-banner-v1/)
 
-* [Click this link to view the website being created from this repository and hosted on github-pages.](https://boxbot6.github.io/simple-website-template-with-banner-v1/)
+<br>
 
 ## To copy and use the template:
 * Create a new folder on your computer and name it - this folder will be your new websites root directory folder.
