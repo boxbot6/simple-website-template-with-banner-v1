@@ -104,4 +104,8 @@ Click the link below to visit the website being created from this repository by 
 
 <br>
 
+---
+
 * [Click this link to see more templates.](https://boxbot6.github.io/simple-website-templates/)
+
+<br>
